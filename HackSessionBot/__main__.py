@@ -9,9 +9,9 @@ from HackSessionBot.modules import ALL_MODULES
 async def start_bot():
     for all_module in ALL_MODULES:
         importlib.import_module("HackSessionBot.modules." + all_module)
-    LOG.print("[bold yellow]✨ شتغل")
+    LOG.print("[bold yellow]✨ صار")
     await idle() 
-    LOG.print("[bold red]القناة تم مثل ما طلبت.")
+    LOG.print("[bold red]احب F💋.")
 
 
 
