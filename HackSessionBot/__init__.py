@@ -40,7 +40,7 @@ async def HackSessionBot():
     header.add_column(LOG_TEXT)
     LOG.print(header)
     LOG.print(f"[bold cyan]{ART}")
-    LOG.print("[bold yellow]تم عزيزي المواطن")
+    LOG.print("[bold yellow]تدلل تدلل بصوت طابوكه")
     await app.start()    
     
 
